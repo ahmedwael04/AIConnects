@@ -1,0 +1,50 @@
+{
+    "Cairo": {
+      "food": [
+        {
+          "name": "Zooba",
+          "location": "Zamalek",
+          "budget_range": "50-150 EGP",
+          "description": "Authentic Egyptian street food."
+        },
+        {
+          "name": "Abou Tarek",
+          "location": "Downtown",
+          "budget_range": "20-80 EGP",
+          "description": "Famous for koshari."
+        }
+      ],
+      "activities": [
+        {
+          "name": "Egyptian Museum",
+          "location": "Tahrir Square",
+          "budget_range": "200-300 EGP",
+          "description": "Historical artifacts and mummies."
+        },
+        {
+          "name": "Khan el-Khalili",
+          "location": "Islamic Cairo",
+          "budget_range": "0-100 EGP",
+          "description": "Historic bazaar with souvenirs."
+        }
+      ]
+    },
+    "Alexandria": {
+      "food": [
+        {
+          "name": "Fish Market",
+          "location": "Anfushi",
+          "budget_range": "100-250 EGP",
+          "description": "Fresh seafood by the coast."
+        }
+      ],
+      "activities": [
+        {
+          "name": "Bibliotheca Alexandrina",
+          "location": "El-Shatby",
+          "budget_range": "50-150 EGP",
+          "description": "Modern library and cultural center."
+        }
+      ]
+    }
+  }
