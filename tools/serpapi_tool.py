@@ -1,4 +1,3 @@
-# tools/serpapi_tool.py
 from langchain.tools import Tool
 from serpapi import GoogleSearch
 import os
@@ -14,7 +13,9 @@ def search_web(query, location):
     }
     search = GoogleSearch(params)
     results = search.get_dict()
-    return results.get("organic_results", [])[:3]  # Return top 3 results
+    organic_results = results.get("organic_results", [])[:3]  # Return top 3 results
+    print(f"SerpAPI - Query: {query}, Location: {location}, Results: {organic_results}")
+    return organic_results
 
 food_search_tool = Tool(
     name="FoodSearch",
